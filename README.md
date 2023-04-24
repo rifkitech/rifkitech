@@ -1,4 +1,4 @@
-### Hi there 👋
+### Assalamualaikum, halo semuanya 👋
 
 <!--
 **rifkitech/rifkitech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+izinkan saya memperkenalkan diri. Nama saya Muhammad Rifki Sumarna, alamat saya di Kampung Palasari, Desa Tanjungwangi, Kecamatan Cijambe, Kabupaten Subang, Jawa barat, Indonesia. Oke segitu aja ya, makasih udah mampir, bye..🙋‍♂️
