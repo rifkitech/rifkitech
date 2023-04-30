@@ -1,4 +1,4 @@
-![git](https://user-images.githubusercontent.com/112795137/235330058-77de4fd7-eae7-4def-87be-96230b0f65a4.jpg)
+![astrocat](https://user-images.githubusercontent.com/112795137/235331659-f10954d2-92c1-44fe-87e3-de57220f2163.png)
 
 ### Assalamualaikum, halo semuanya 👋
 
@@ -18,5 +18,3 @@ Here are some ideas to get you started:
 -->
 
 Izinkan saya memperkenalkan diri. Nama saya Muhammad Rifki Sumarna. Alamat saya di Kampung Palasari, Desa Tanjungwangi, Kecamatan Cijambe, Kabupaten Subang, Jawa barat, Indonesia. Oke segitu aja ya, makasih udah mampir, bye..🙋‍♂️
-
-![hello](https://user-images.githubusercontent.com/112795137/235306548-e08274bd-364e-45de-a4f9-13d5e8a20cbf.gif)
