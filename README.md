@@ -19,7 +19,4 @@ Izinkan saya memperkenalkan diri. Nama saya Muhammad Rifki Sumarna. Alamat saya 
 __________________________________________________
 ![hello](https://user-images.githubusercontent.com/112795137/235306548-e08274bd-364e-45de-a4f9-13d5e8a20cbf.gif)
 
-
-
-https://user-images.githubusercontent.com/112795137/235329740-3ba597e9-3312-458c-8dd8-bc166fad59d1.mp4
-
+![git](https://user-images.githubusercontent.com/112795137/235330058-77de4fd7-eae7-4def-87be-96230b0f65a4.jpg)
