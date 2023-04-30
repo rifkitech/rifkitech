@@ -18,5 +18,5 @@ Here are some ideas to get you started:
 -->
 
 Izinkan saya memperkenalkan diri. Nama saya Muhammad Rifki Sumarna. Alamat saya di Kampung Palasari, Desa Tanjungwangi, Kecamatan Cijambe, Kabupaten Subang, Jawa barat, Indonesia. Oke segitu aja ya, makasih udah mampir, bye..🙋‍♂️
-__________________________________________________
+
 ![hello](https://user-images.githubusercontent.com/112795137/235306548-e08274bd-364e-45de-a4f9-13d5e8a20cbf.gif)
