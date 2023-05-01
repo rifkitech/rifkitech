@@ -1,4 +1,4 @@
-![astrocat](https://user-images.githubusercontent.com/112795137/235331659-f10954d2-92c1-44fe-87e3-de57220f2163.png)
+![astrocat](https://user-images.githubusercontent.com/112795137/235426261-27759b75-10ff-4180-8839-76dd6bfb05cb.png)
 
 ### Assalamualaikum, halo semuanya 👋
 
