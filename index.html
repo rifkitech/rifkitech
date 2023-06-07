@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>About me</title>
-<link rel="icon" type="image/x-icon" href="/logo.png"/>
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>About me</title>
+<link rel="icon" type="image/png" href="/logo.ico"/>
+<link crossorigin='anonymous' href='https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.3.0/remixicon.css' integrity='sha512-0JEaZ1BDR+FsrPtq5Ap9o05MUwn8lKs2GiCcRVdOH0qDcUcCoMKi8fDVJ9gnG8VN1Mp/vuWw2sMO0SQom5th4g==' referrerpolicy='no-referrer' rel='stylesheet'/>
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -80,11 +83,41 @@ html {
   background-color: #555;
 }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
 }
 </style>
 </head>
@@ -95,17 +128,19 @@ html {
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/rifki.png" alt="RIFKI" class="center"/>
+      <img src="/about_me/rifki.jpg" alt="RIFKI" class="center"/>
       <div class="container">
         <h2>Muhammad Rifki Sumarna</h2>
         <p class="title">~ Student</p>
+        <p class="title">~ Blogger</p>
         <p>Assalamualaikum Teman-teman😊
 
-izinkan saya memperkenalkan diri. Nama saya Muhammad Rifki Sumarna, saya lahir di Subang pada Tahun 2005, alamat saya di Kampung Palasari, Desa Tanjungwangi, Kecamatan Cijambe, Kabupaten Subang, Jawa barat, Indonesia. Oke segitu aja ya, makasih udah mampir, bye..🙋‍♂️
-
-</p>
-<br><b>Email:</b> rifkitech@yahoo.com</br>
-<div class="buttoncenter"><a href="https://www.rifkiweb.eu.org"><p><button class="button">Visit my Website</button></p></a>
+izinkan saya memperkenalkan diri. Nama saya Muhammad Rifki Sumarna, saya lahir di Subang pada Tahun 2005, alamat saya di Kampung Palasari, Desa Tanjungwangi, Kecamatan Cijambe, Kabupaten Subang, Jawa barat, Indonesia. Oke segitu aja ya, makasih udah mampir, bye..🙋‍♂️</p>
+<br><a href="mailto:rifkitech@yahoo.com"><i class="ri-mail-fill"></i> <b>Email</b></a>
+<a href="https://t.me/ikkkiiiiiiii"><i class="ri-telegram-fill"></i> <b>Telegram</b></a>
+<br><br><div class="buttoncenter"><a href="https://www.rifkiweb.eu.org"><p><button class="button">Visit my Website</button></p></a>
+      </div>
+<div class="buttoncenter"><a href="https://www.rifkiblog.eu.org"><p><button class="button">Visit my Blog</button></p></a>
       </div>
     </div>
   </div>
