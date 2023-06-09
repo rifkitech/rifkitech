@@ -18,8 +18,9 @@ Here are some ideas to get you started:
 -->
 
 Izinkan saya memperkenalkan diri. Nama saya Muhammad Rifki Sumarna. Alamat saya di Kampung Palasari, Desa Tanjungwangi, Kecamatan Cijambe, Kabupaten Subang, Jawa barat, Indonesia. Oke segitu aja ya, makasih udah mampir, bye..🙋‍♂️
-
+<br/>
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=rifkitech&include_all_commits=true&count_private=true&show_icons=true" alt="Rifkitech Github Stats"/>
-<br/>
-<br/>
+
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rifkitech&layout=compact" alt="Rifkitech Top Languages"/>
+
+<img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/rifkiizz?style=social"/>   <img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fwww.rifkiweb.eu.org">
