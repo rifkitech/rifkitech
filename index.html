@@ -10,221 +10,200 @@
 <meta name='description' content='Halo nama saya Muhammad Rifki Sumarna'/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-}
-.wrapper {
+body {
+  width: 100vw;
   height: 100vh;
+  font-family: Montserrat;
 }
-.about-left{
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color:#fff
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  background-size: 200%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: cont 10000ms ease-in-out infinite alternate;
 }
-.about-left-content > div{
-    background: #12192c;
-    padding: 4rem 4rem 2.5rem 5rem;
-    text-align: center;
-    
-    border-radius: 12px 12px 0 0;
+@keyframes cont {
+  from {
+    background-position: top left;
+  }
+  to {
+    background-position: bottom right;
+  }
 }
-.about-left-content{
-    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
-    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
-    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
-    border-radius: 12px;
-    width:80%;
+.portfolio-card {
+  width: 70%;
+  max-height: 50%;
+  background-color: #02e46a;
+background-image: linear-gradient(45deg, #02e46a 0%, #e2db1a 100%);
+
+  border-radius: 0.5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+  border: 2px solid #02e46a;
+  color: #000;
 }
-.about-img img{
-    display: block;
-    width: 200px;
+.portfolio-card-1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #fff3;
 }
-.about-img{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-    transition: all 0.5s ease-in-out;
-}
-.shadow{
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-}
-.about-left-content h2{
-    font-size: 2rem;
-    margin: 2.2rem 0 0.6rem 0;
-    line-height: 1.2;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #B721FF;
-}
-.about-left-content h3{
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 5px;
-    margin-top: 1.2rem;
-}
-.icons{
-    background: #12192c;
-    display: flex;
-    justify-content: center;
-    padding: 0.8rem 0;
-    border-radius: 0 0 12px 12px;
-}
-.icons li{
-    list-style-type: none;
-    text-decoration: none;
-    background: #fff;
-    color: #000;
-    width: 40px;
-    height: 40px;
-    margin: 0 0.5rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-}
-.icons li:hover{
-    background: #edffec;
-    color: #000;
-}
-.about-right{
-    background: #12192c;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 5rem;
-    text-align: center;
-    color:#fff
-}
-.about-right h1{
-    font-size: 5rem;
-    text-transform: uppercase;
-}
-.about-right h1 span{
-    color: #B721FF;
-}
-.about-right h2{
-    font-weight: 600;
-}
-.about-btns{
-    display: flex;
-    margin: 2rem 0;
-}
-.btn{
-    border: none;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    border: 2px solid #fff;
-    border-radius: 20px;
-    padding: 0.55rem 0;
-    width: 130px;
-    font-weight: 600;
-    background: transparent;
-    margin: 0 0.5rem;
-    cursor: pointer;
-    color:#fff
-}
-.btn.btn-pink{
-    background: #B721FF;
-    color: #fff;
-    border-color: #B721FF;
-    transition: all 0.5s ease-in-out;
-}
-.btn.btn-pink:hover{
-    background: transparent;
-    border-color: #fff;
-    color: #fff;
-}
-.btn.btn-white{
-    transition: all 0.5s ease-in-out;
-}
-.btn.btn-white:hover{
-    background: #B721FF;
-    border-color: #B721FF;
-    color: #fff;
-}
-.about-para p{
-    font-weight: 300;
-    padding: 0.5rem;
-    opacity: 0.8;
+.portfolio-card-1-col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-@media screen and (min-width: 992px){
-    .about-wrapper{
-        display: grid;
-        grid-template-columns: repeat(2, 2fr);
-    }
-
-    .about-left{
-        position: relative;
-    }
-    .about-left-content{
-        position: absolute;
-        width:80%
-    
-    }
+.portfolio-card-1-col img {
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  background: #f1f1f1;
+  border: 6px solid #02e46a;
+  box-shadow: 0.125em 0.125em 0.5em rgba(0, 0, 0, 0.45);
 }
-.credit{
+.portfolio-card-1-col-2 {
+  width: 50%;
+}
+.portfolio-card-1-col-2 h2 {
+  font-size: medium;
+}
+.portfolio-card-1-col-2 p {
+  text-align: justify;
+}
+.portfolio-card-2 {
+  padding-top: 1em;
+  display: flex;
+  align-items: center;
+}
+.portfolio-card-2 span {
+  text-transform: uppercase;
+  width: 50%;
+  text-align: center;
+}
+.portfolio-card-2-icons {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  /*   grid-template-columns: repeat(5, 1fr); */
+  /*   grid-gap: 1em; */
+  /*   place-items: center; */
+}
+.portfolio-card-2-icons i {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f1f1f1;
+  color: #f1f1f1;
+  box-shadow: 0.025em 0.025em 0.15em rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+}
+.portfolio-card-2-icons [class*="fa-instagram"] {
+  background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4);
+}
+.portfolio-card-2-icons [class*="fa-twitter"] {
+  background: linear-gradient(to right, #50c9c3, #96deda);
+}
+.portfolio-card-2-icons [class*="fa-github"] {
+  background: linear-gradient(to right, #000000, #000000);
+}
+.portfolio-contact-part {
+  display: none;
+}
+.viewport {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: larger;
+}
+/*======Media  Queries======*/
+@media screen and (max-width: 768px) {
+  .portfolio-card-1 {
+    flex-direction: column;
+  }
+  .portfolio-card-1-col,
+  .portfolio-card-1-col-2 {
+    width: 100% !important;
+  }
+  .portfolio-card {
+    padding: 0.25em;
+    max-height: 90%;
+  }
+  .portfolio-card-1-col-2 h2 {
     text-align: center;
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .portfolio-card-2 {
+    flex-direction: column;
+  }
+  .portfolio-card-2-icons,
+  .portfolio-card-2 span {
+    width: 70% !important;
+    margin: 0.5em 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  body :not(.viewport) {
+    display: none;
+  }
+  .viewport {
+    display: block !important;
+  }
 }
 .credit a{
     text-decoration: none;
-    color:#B721FF;
-    font-weight: bold;
-} 
+    color: #000;
+    font-weight: 900;
+  }
+
+  .credit {
+      margin-top: 20px;
+      text-align: center;
+  }
 </style>
 </head>
 <body>
-    <div class = "wrapper">
-      <div class = "about-left">
-        <div class = "about-left-content">
-          <div>
-            <div class = "shadow">
-              <div class = "about-img">
-                <img src = "rifki.png" alt = "my face"/>
-              </div>
-            </div>
-<h2>Muhammad Rifki Sumarna</h2>
-<h3>Blogger</h3>
-</div>
-<ul class = "icons">
-<li><a href="https://instagram.com/_.ikiiii"><i class = "fab fa-instagram"></i></li></a>
-<li><a href="https://twitter.com/rifkiizz"><i class = "fab fa-twitter"></i></li></a>
-<li><a href="https://github.com/rifkitech"><i class = "fab fa-github"></i></li></a>
-</ul></div></div>
-<div class = "about-right">
-<p>Izinkan saya memperkenalkan diri. Nama saya Muhammad Rifki Sumarna, saya lahir di Subang pada tanggal 13 Desember 2005, alamat saya di kampung palasari, kelurahan tanjungwangi, kecamatan cijambe, kabupaten subang, jawa barat.</p>
-<div class = "about-btns">
-<button onclick="location.href='https://www.rifkiweb.eu.org';" type = "button" class = "btn btn-white">Website</button>
-<button onclick="location.href='https://www.rifkiblog.eu.org';" type = "button" class = "btn btn-white">Blog</button></div>
-<div class = "about-para">
-<p></p></div>
-<br>
-        
-<div class="credit">Powered by <a href="https://pages.github.com">Github Pages</a></div></div></div>
-<br>
-
+<div class="viewport">Ukuran layar anda tidak mendukung.</div>
+    <div class="container">
+      <div class="portfolio-card">
+        <div class="portfolio-card-1">
+          <div class="portfolio-card-1-col">
+            <img src="rifki.png" alt="wajah saya">
+            <h1>Halo!</h1>
+          </div>
+          <div class="portfolio-card-1-col-2">
+          <h2>Muhammad Rifki Sumarna</h2>
+            <p>Saya lahir di Subang pada tanggal 13 Desember 2005. Alamat saya di kampung palasari, tanjungwangi, cijambe, subang, jawa barat.</p>
+          </div>
+        </div>
+        <div class="portfolio-card-2">
+          <div class="portfolio-card-2-icons">
+            <a href="https://instagram.com/_.ikiiii"><i class = "fa fa-instagram"></i></a>
+            <a href="https://twitter.com/rifkiizz"><i class = "fa fa-twitter"></i></a>
+            <a href="https://github.com/rifkitech"><i class = "fa fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="credit">Powered by <a  href="https://pages.github.com">Github Pages</a></div>
+    </div>
 </body>
 </html>
