@@ -1,151 +1,230 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-<title>Muhammad Rifki Sumarna - Tentang</title>
-<meta name=”keywords” content=”Tentang Muhammad Rifki Sumarna”/>
-<link rel="icon" type="image/png" href="r_logo.png"/>
-<link crossorigin='anonymous' href='https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.3.0/remixicon.css' integrity='sha512-0JEaZ1BDR+FsrPtq5Ap9o05MUwn8lKs2GiCcRVdOH0qDcUcCoMKi8fDVJ9gnG8VN1Mp/vuWw2sMO0SQom5th4g==' referrerpolicy='no-referrer' rel='stylesheet'/>
+<title>Tentang Muhammad Rifki Sumarna</title>
+<link rel="icon" type="image/png" href="r.png"/>
+<meta name="keywords" content="Tentang Muhammad Rifki Sumarna"/>
+<meta name='description' content='Halo nama saya Muhammad Rifki Sumarna'/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.about-wrapper{
+    height: 100vh;
+}
+.about-left{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color:#fff
+}
+.about-left-content > div{
+    background: #12192c;
+    padding: 4rem 4rem 2.5rem 5rem;
+    text-align: center;
+    
+    border-radius: 12px 12px 0 0;
+}
+.about-left-content{
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    border-radius: 12px;
+    width:80%;
+}
+.about-img img{
+    display: block;
+    width: 200px;
+}
+.about-img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+.shadow{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.about-left-content h2{
+    font-size: 2rem;
+    margin: 2.2rem 0 0.6rem 0;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #B721FF;
+}
+.about-left-content h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-top: 1.2rem;
+}
+.icons{
+    background: #12192c;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+    border-radius: 0 0 12px 12px;
+}
+.icons li{
+    list-style-type: none;
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.icons li:hover{
+    background: #edffec;
+    color: #000;
+}
+.about-right{
+    background: #12192c;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    text-align: center;
+    color:#fff
+}
+.about-right h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.about-right h1 span{
+    color: #B721FF;
+}
+.about-right h2{
+    font-weight: 600;
+}
+.about-btns{
+    display: flex;
+    margin: 2rem 0;
+}
+.btn{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 130px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color:#fff
+}
+.btn.btn-pink{
+    background: #B721FF;
+    color: #fff;
+    border-color: #B721FF;
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-pink:hover{
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.btn.btn-white{
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-white:hover{
+    background: #B721FF;
+    border-color: #B721FF;
+    color: #fff;
+}
+.about-para p{
+    font-weight: 300;
+    padding: 0.5rem;
+    opacity: 0.8;
 }
 
-html {
-  box-sizing: border-box;
-}
+@media screen and (min-width: 992px){
+    .about-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+    .about-left{
+        position: relative;
+    }
+    .about-left-content{
+        position: absolute;
+        width:80%
+    
+    }
 }
-
-.column {
-  float: center;
-  width: 100%;
-  margin-bottom: 16px;
-  padding: 0 8px;
+.credit{
+    text-align: center;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.card {
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
-
-.about-section {
-  padding: 5px;
-  text-align: center;
-  background-color: #000;
-  color: white;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  border-radius: 25px;
-  outline: 0;
-  display: inline-block;
-  padding: 16px;
-  color: white;
-  background-color: #000;
-  font-size: 18px;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.buttoncenter {
-  margin: auto;
-  width: 100%;
-
-.button:hover {
-  background-color: #555;
-}
-
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
-}
+.credit a{
+    text-decoration: none;
+    color:#B721FF;
+    font-weight: bold;
+} 
 </style>
 </head>
 <body>
-<div class="about-section">
-  <h1>About me</h1>
+    <div class = "about-wrapper">
+      <div class = "about-left">
+        <div class = "about-left-content">
+          <div>
+            <div class = "shadow">
+              <div class = "about-img">
+                <img src = "https://www.rifkiaja.eu.org/rifki.png" alt = "about image">
+              </div>
+            </div>
+<h2>Muhammad Rifki Sumarna</h2>
+<h3>Blogger</h3>
 </div>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="/rifki.png" alt="RIFKI" class="center"/>
-      <div class="container">
-        <h2>Muhammad Rifki Sumarna</h2>
-        <p class="title">~ Student</p>
-        <p class="title">~ Blogger</p>
-        <p>Assalamualaikum Teman-teman😊
+<ul class = "icons">
+<li><a href="https://instagram.com/_.ikiiii"><i class = "fab fa-instagram"></i></li></a>
+<li><a href="https://twitter.com/rifkiizz"><i class = "fab fa-twitter"></i></li></a>
+<li><a href="https://github.com/rifkitech"><i class = "fab fa-github"></i></li></a>
+</ul></div></div>
+<div class = "about-right">
+<p>Izinkan saya memperkenalkan diri. Nama saya Muhammad Rifki Sumarna, saya lahir di Subang pada tanggal 13 Desember 2005, alamat saya di kampung palasari, kelurahan tanjungwangi, kecamatan cijambe, kabupaten subang, jawa barat.</p>
+<div class = "about-btns">
+<button type = "button" class = "btn btn-white">Website</button>
+<button type = "button" class = "btn btn-white">Blog</button></div>
+<div class = "about-para">
+<p></p></div>
+<br>
+        
+<div class="credit">Powered by <a href="https://pages.github.com">Github Pages</a></div></div></div>
+<br>
 
-izinkan saya memperkenalkan diri. Nama saya Muhammad Rifki Sumarna, saya lahir di Subang pada Tahun 2005, alamat saya di Kampung Palasari, Desa Tanjungwangi, Kecamatan Cijambe, Kabupaten Subang, Jawa barat. Makasih ya udah mampir, bye..🙋‍♂️</p>
-<br><a href="mailto:sysadmin@rifkiaja.eu.org"><i class="ri-mail-fill"></i> <b>Email</b></a>
-<a href="https://github.com/rifkitech" target="_blank"><i class="ri-github-fill"></i> <b>Github</b></a>
-<a href="https://t.me/ikkkiiiiiiii" target="_blank"><i class="ri-telegram-fill"></i> <b>Telegram</b></a>
-<br><br><div class="buttoncenter"><a href="https://www.rifkiweb.eu.org" target="_blank"><p><button class="button">Visit my Website</button></p></a>
-      </div>
-<div class="buttoncenter"><a href="https://www.rifkiblog.eu.org" target="_blank"><p><button class="button">Visit my Blog</button></p></a>
-      </div>
-    </div>
-  </div>
- </div>
 </body>
 </html>
